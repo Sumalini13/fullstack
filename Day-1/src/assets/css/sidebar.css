@@ -1,0 +1,33 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #424242;
+    color: #fff;
+    padding: 20px;
+    position: fixed; /* Changed to fixed */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the sidebar appears above other content */
+    overflow-y: auto; /* Allow sidebar content to be scrollable */
+}
+
+.sidebar-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidebar-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar-text {
+    font-size: 16px;
+}
+
+
+.sidebar-text {
+    font-size: 16px;
+}
