@@ -1,0 +1,107 @@
+/* Form.css */
+
+.admission-form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.admission-form h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.admission-form label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+.admission-form .form-group {
+  margin-bottom: 20px;
+}
+
+.admission-form .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.admission-form .form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.admission-form select.form-control {
+  appearance: none;
+  padding-right: 30px;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23555555" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M14.296 7.207L10 11.5 5.704 7.207a1 1 0 111.414-1.414L10 9.672l3.882-3.882a1 1 0 111.414 1.414z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.admission-form textarea.form-control {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.admission-form .btn-primary,
+.admission-form .btn-cancel {
+  width: calc(10% - 5px);
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.admission-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.admission-form .btn-cancel:hover {
+  background-color: #c82333;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .admission-form {
+    max-width: 80%;
+  }
+}

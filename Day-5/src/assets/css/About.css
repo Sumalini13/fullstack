@@ -1,0 +1,94 @@
+/* Define a keyframe animation for fading in and sliding up */
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0.9;
+
+  }
+  50% {
+    opacity: 1;
+  
+  }
+ 
+}
+
+.outer-container {
+  background-image: url("../images/first1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75%;
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+
+  /* Apply the animation to the background image */
+  animation: fadeInSlideUp 8s ease-in-out infinite; /* Adjust the duration as needed */
+}
+
+.text1
+{
+  color:#fff
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140%;
+    margin-top: 10%;
+    box-shadow: 30%;
+    width: 100%;
+  }
+  
+  .admission-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40%;
+    margin-left: 3%;
+    color: #fff;
+    background-color:transparent; /* Adjust the last value (0.8) for desired opacity */
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  .admission-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .admission-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .admission-content button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #616163;
+    color: #fff;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admission-content button:hover {
+    background-color: #4a4a4b;
+  }
+  
+  .college-image {
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    margin-top: 50%;
+  }
+  
+  .college-image img {
+    max-width: 100%;
+    max-height: 80%;
+  }
+  
+  
